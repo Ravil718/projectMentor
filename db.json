@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "title": "Roronoa",
+      "price": "s",
+      "descr": "Zoro",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjwxGr-jfGpeEoOubvkrG_aAcSMWu9aH7PZA&usqp=CAU",
+      "id": 3
+    },
+    {
+      "title": "Roronoa",
+      "price": "s",
+      "descr": "Zoro",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjwxGr-jfGpeEoOubvkrG_aAcSMWu9aH7PZA&usqp=CAU",
+      "id": 3
+    },
+    {
+      "title": "Usopp",
+      "price": "a",
+      "descr": "GOD Ussop",
+      "image": "http://pm1.narvii.com/6692/402bb4b721aa2b473d778e049e27070b59463d51_00.jpg",
+      "id": 4
+    },
+    {
+      "title": "Usopp",
+      "price": "a",
+      "descr": "GOD Ussop",
+      "image": "http://pm1.narvii.com/6692/402bb4b721aa2b473d778e049e27070b59463d51_00.jpg",
+      "id": 4
+    },
+    {
+      "title": "Usopp",
+      "price": "a",
+      "descr": "GOD Ussop",
+      "image": "http://pm1.narvii.com/6692/402bb4b721aa2b473d778e049e27070b59463d51_00.jpg",
+      "id": 4
+    }
+  ]
+}
