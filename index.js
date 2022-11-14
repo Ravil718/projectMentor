@@ -1,5 +1,10 @@
 // ? АПИ Для запросов
 let API = "http://localhost:8000/posts";
+let API_USERS = "http://localhost:8000/users";
+
+let userName = document.querySelector("#username");
+let password = document.querySelector("#password");
+let submit = document.querySelector("#submit");
 
 let inp = document.querySelector(".inp");
 let title = document.querySelector("#title");
@@ -29,6 +34,27 @@ let searchVal = "";
 
 // ? блок куда добавятся карточки из функции render
 let list = document.querySelector("#products-list");
+
+//? REGISTRATION &  AUTM
+
+submit.addEventListener("click", async () => {
+  let obj = {
+    userName: userName.value,
+    password: password.value,
+  };
+  if (!obj.userName.trim() || !obj.password.trim()) {
+    alert("fill the form field");
+    return;
+  }
+  console.log(obj);
+  await fetch(API_USERS, {
+    method: "POST",
+    body: JSON.stringify(obj),
+    headers: {
+      "Content-type": "application/json",
+    },
+  }).then(() => alert("Пользователь добавлен"));
+});
 
 // ! ADD - Обработчик событий на добавление
 btnAdd.addEventListener("click", async function () {

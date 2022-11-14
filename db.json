@@ -35,5 +35,22 @@
       "image": "http://pm1.narvii.com/6692/402bb4b721aa2b473d778e049e27070b59463d51_00.jpg",
       "id": 4
     }
+  ],
+  "users": [
+    {
+      "userName": "erwr",
+      "password": "wer",
+      "id": 1
+    },
+    {
+      "userName": "naruto",
+      "password": "kmfrf",
+      "id": 2
+    },
+    {
+      "userName": "naruto",
+      "password": "kmfrf",
+      "id": 3
+    }
   ]
 }
